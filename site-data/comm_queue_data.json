@@ -1,0 +1,23 @@
+[
+  {
+    "slots": [
+      {
+        "client": "ItsSiverScout",
+        "currentStep": "Producing Final Animation",
+        "nextStep": "Shading",
+        "progress": 90
+      },
+      {
+        "client": "Cheeseman + ReturnAddress",
+        "currentStep": "Producing Final Animation",
+        "nextStep": "Background Polish",
+        "progress": 85
+      }
+    ]
+  },
+  [
+    "Nackle",
+    "SkiesOfSilver",
+    "CHsnake5050"
+  ]
+]
