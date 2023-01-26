@@ -1,0 +1,207 @@
+<head>
+    <title>Snapps' Space</title>
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta name="RATING" content="RTA-5042-1996-1400-1577-RTA" />
+</head>
+
+<body onload="checkPass();">
+    <div id="nsfw-warning">
+        <div>
+            <b class="codeLetter" ontouchstart="codeIn('C');" onmousedown="codeIn('C');">C</b>
+            <b class="codeLetter" ontouchstart="codeIn('A');" onmousedown="codeIn('A');">A</b>
+            <b class="codeLetter" ontouchstart="codeIn('U');" onmousedown="codeIn('U');">U</b>
+            <b class="codeLetter" ontouchstart="codeIn('T');" onmousedown="codeIn('T');">T</b>
+            <b class="codeLetter" ontouchstart="codeIn('I');" onmousedown="codeIn('I');">I</b>
+            <b class="codeLetter" ontouchstart="codeIn('O');" onmousedown="codeIn('O');">O</b>
+            <b class="codeLetter" ontouchstart="codeIn('N');" onmousedown="codeIn('N');">N</b>
+            <b class="codeLetter" ontouchstart="codeIn('!');" onmousedown="codeIn('!');">!</b>
+            <br>
+            <b class="codeLetter" ontouchstart="codeIn('A');" onmousedown="codeIn('A');">A</b>
+            <b class="codeLetter" ontouchstart="codeIn('T');" onmousedown="codeIn('T');">T</b>
+            <b class="codeLetter" ontouchstart="codeIn('T');" onmousedown="codeIn('T');">T</b>
+            <b class="codeLetter" ontouchstart="codeIn('E');" onmousedown="codeIn('E');">E</b>
+            <b class="codeLetter" ontouchstart="codeIn('N');" onmousedown="codeIn('N');">N</b>
+            <b class="codeLetter" ontouchstart="codeIn('T');" onmousedown="codeIn('T');">T</b>
+            <b class="codeLetter" ontouchstart="codeIn('I');" onmousedown="codeIn('I');">I</b>
+            <b class="codeLetter" ontouchstart="codeIn('O');" onmousedown="codeIn('O');">O</b>
+            <b class="codeLetter" ontouchstart="codeIn('N');" onmousedown="codeIn('N');">N</b>
+            <b class="codeLetter" ontouchstart="codeIn('!');" onmousedown="codeIn('!');">!</b>
+            <br>
+            <b class="codeLetter" ontouchstart="codeIn('W');" onmousedown="codeIn('W');">W</b>
+            <b class="codeLetter" ontouchstart="codeIn('A');" onmousedown="codeIn('A');">A</b>
+            <b class="codeLetter" ontouchstart="codeIn('R');" onmousedown="codeIn('R');">R</b>
+            <b class="codeLetter" ontouchstart="codeIn('N');" onmousedown="codeIn('N');">N</b>
+            <b class="codeLetter" ontouchstart="codeIn('I');" onmousedown="codeIn('I');">I</b>
+            <b class="codeLetter" ontouchstart="codeIn('N');" onmousedown="codeIn('N');">N</b>
+            <b class="codeLetter" ontouchstart="codeIn('G');" onmousedown="codeIn('G');">G</b>
+            <b class="codeLetter" ontouchstart="codeIn('!');" onmousedown="codeIn('!');">!</b>
+        </div>
+
+        <span>Sorry! I do not mean to scare you or anything, but some pretty wild things can be found on this site and wherever it takes you. Such spectacles require that you be over the legal age in your location of residence. In order to deter the unworthy and/or unwilling, I have set up a small puzzle to test your resolution. To gain access to what lies in store behind this screen, spell out "owo on!" using only the purple characters you can see right now (JavaScript must be enabled for this to work so make sure you turn off your AdBlock (I don't even run ads on this website anyway)). Do not worry about entering the spaces; Just enter the phrase character by character by either clicking (or tapping (we don't discriminate here)). Also, if you mess up entering the sequence, don't sweat it; Just click on an exlimation mark three times in a row. You will know if you entered it right when the colors turns from a light purple to bright lime and then this screen will disappear. I will state it again, by entering, you agree that you are over the legal age of your location of residence. There is not much to say beyond that. However, I do need to reach a character quota. Sorry if you are still reading this, but since you still are reading this—for whatever reason—I will let you in on a little secret. Do you see that button at the bottom that says "Proceed"? Clicking on that button will land you on a website that I do like visiting. I hope you will like it too. Another thing, the button right next to the "Proceed" button will actually just send you to Google or maybe even something less productive. Pressing any of those buttons will send you a one-way trip so be careful or else you will have to go searching for this page again. Keep that in mind when making your decision! </span>
+
+        <div id="warning-buttons">
+            <button ontouchstart="proceed();" onmousedown="proceed();"> Proceed </button> <button ontouchstart="leave();" onmousedown="leave();"> Leave </button>
+        </div>
+
+        <img draggable="false" src="img/RTA.png">
+    </div>
+
+    <div id="bg">
+        <video autoplay muted loop id="bg-video">
+            <source src="img/bg.mp4" type="video/mp4">
+        </video>
+        <div id="bg-floor2">
+        </div>
+
+        <div id="bg-floor">
+        </div>
+
+        <img draggable="false" id="bg-savak" src="img/bg_savak.png">
+
+        <div id="bg-text">
+            <h1>Welcome to Snapps' Space</h1>
+            <span>Enjoy your stay!</span>
+        </div>
+
+        <div id="bg-float">
+            <div id="obg1"><img src="img/doggo.png"></div>
+        </div>
+
+        <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img draggable="false" id="cc" src="img/cc.gif"></a>
+
+    </div>
+
+    <div id="nav-menu">
+        <div id="nav-menu-header" onmouseup="dropMenu();">
+            <h1>
+                ✭
+            </h1>
+        </div>
+        <div id="nav-menu-content">
+
+            <div id="about-me-container" class="nav-menu-item">
+                <h1>About Me!</h1>
+
+                <img draggable="false" src="img/icon.png">
+
+                <span id="about-me-text">
+                    <b>First and foremost</b>, I'm a kobold enthusiast, but I also dabble in programming, drawing, and writing.
+                    <br><br>Find me on:
+                    <ul>
+                        <li><a href="https://twitter.com/SnappsU" target="_blank">Twitter</a></li>
+                    </ul>
+                </span>
+            </div>
+
+            <div id="page-container" class="nav-menu-item">
+                <a href="art/">
+                    <div class="page-button">
+                        <img src="img/art.png">
+                        <div class="page-button-border"></div>
+                    </div>
+                </a>
+                <a href="donate/">
+                    <div class="page-button">
+                        <img src="img/coin.png">
+                        <div class="page-button-border"></div>
+                    </div>
+                </a>
+                <a href="https://snappsblog.blogspot.com/">
+                    <div class="page-button">
+                        <img src="img/blogger.png">
+                        <div class="page-button-border"></div>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <script>
+        menu = document.getElementById("nav-menu")
+        code = [];
+
+        function checkPass() {
+            if (document.cookie.match("nsfwPass=true") != null) {
+                document.getElementById("nsfw-warning").style.display = "none";
+            }
+        }
+
+        function givePass() {
+            var d = new Date();
+            d.setTime(d.getTime() + (24 * 60 * 60 * 1000));
+            var expires = "expires=" + d.toUTCString();
+            document.cookie = "nsfwPass=true;" + expires + ";path=/;sameSite=Lax";
+        }
+
+        function codeIn(char) {
+            code.push(char);
+            if (code[code.length - 1] == "!" && code[code.length - 2] == "!" && code[code.length - 3] == "!") {
+                code = [];
+            }
+
+
+            if (code[0] == "O" && code[1] == "W" && code[2] == "O" && code[3] == "O" && code[4] == "N" && code[5] == "!") {
+                Object.entries(document.getElementsByClassName("codeLetter")).forEach(ele => ele[1].style.animationName = "turn-green");
+
+                givePass();
+
+
+                document.getElementById("nsfw-warning").style.animationName = "fade-out";
+
+                setTimeout(() => {
+                    document.getElementById("nsfw-warning").style.display = "none";
+                }, 2000);
+
+            }
+
+            if (code[0] == "O" && code[1] == "O" && code[2] == "W" && code[3] == "W" && code[4] == "O" && code[5] == "O" && code[6] == "O" && code[7] == "O" && code[8] == "N" && code[9] == "N" && code[10] == "!" && code[11] == "!") {
+                Object.entries(document.getElementsByClassName("codeLetter")).forEach(ele => ele[1].style.animationName = "turn-green");
+
+                givePass();
+
+                document.getElementById("nsfw-warning").style.animationName = "fade-out";
+
+                setTimeout(() => {
+                    document.getElementById("nsfw-warning").style.display = "none";
+                }, 2000);
+
+            }
+
+        }
+
+        function raiseMenu() {
+            menu.style.animationName = "raise-nav-menu";
+            document.getElementById("bg-text").style.animationName = "fade-in";
+            setTimeout(() => {
+                menu.children[0].onmouseup = function() {
+                    dropMenu()
+                };
+            }, 500);
+        }
+
+        function dropMenu() {
+            menu.style.animationName = "drop-nav-menu";
+            document.getElementById("bg-text").style.animationName = "fade-out";
+            setTimeout(() => {
+                menu.children[0].onmouseup = function() {
+                    raiseMenu()
+                };
+            }, 500);
+        }
+
+        function proceed() {
+            window.location.replace("http://www.omfgdogs.com/");
+        }
+
+        function leave() {
+            window.location.replace("http://hmpg.net/");
+        }
+
+    </script>
+</body>

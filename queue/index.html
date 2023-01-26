@@ -1,0 +1,65 @@
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Commission Queue</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <meta property="og:site_name" content="Snapps' Space">
+    <meta property="og:url" content="https://snapps.neocities.org/commissions/">
+    <meta property="og:title" content="Snapps' Commissions Site">
+    <meta property="og:description" content="So ya want me to draw something, eh?">
+    <meta property="og:type" content="website">
+    <meta property="og:image" itemprop="image" content="https://snapps.neocities.org/links/img/logo.png">
+    <meta name="theme-color" content="#9225BB">
+  
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Snapps' Commissions Site">
+    <meta name="twitter:description" content="So ya want me to draw something, eh?">
+    <meta name="twitter:image" content="https://snapps.neocities.org/links/img/logo.png">
+
+    <meta charset="UTF-8">
+    <meta name="RATING" content="RTA-5042-1996-1400-1577-RTA">
+</head>
+<body>
+    <div id="page-content">
+        <h1>Current Batch</h1>
+
+        <div id="current-batch">
+            <div class="comm-status">
+                <span class="client">ItsSilverScout</span>
+                <span class="current-status">Producing Final Animation</span>
+                <span class="next-status">Shading</span>
+                <div class="prog-bar-containter"><div class="prog-bar" data-progress="90" style="width: 90%;"><span>90%</span></div></div>
+            </div>
+            <div class="comm-status">
+                <span class="client">Cheeseman (+ ReturnAddress)</span>
+                <span class="current-status">Producing Final Animation</span>
+                <span class="next-status">Background</span>
+                <div class="prog-bar-containter"><div class="prog-bar" data-progress="85" style="width: 85%;"><span>85%</span></div></div>
+            </div>
+        </div>
+        <h1>Next In Line<br>      <sub>In order of contact...</sub>
+        </h1>
+        <div id="next-in-line">
+            <ol>
+                <li>Nackle</li>
+                <li>SkiesOfSilver</li>
+                <li>CHsnake5050</li>
+            </ol>
+        </div>
+    </div>
+
+    <script>
+    Array.from(document.getElementsByClassName("prog-bar")).forEach(element => {
+        loadBar(element);
+    });
+    function loadBar(ele){
+        ele.style.width = ele.dataset.progress+"%";
+        ele.innerHTML = "<span>"+ele.dataset.progress+"%</span>"
+    }
+    </script>
+</body></html>
